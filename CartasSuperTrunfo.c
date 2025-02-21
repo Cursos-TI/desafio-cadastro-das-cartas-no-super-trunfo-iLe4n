@@ -5,7 +5,6 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
      double Population, Populations2;
@@ -40,8 +39,8 @@ int main() {
     printf("Name of state the card %s is %s. \n", NumberCard, State);
     printf("The name of city is %s. \n", Citys);
     printf("The number of population the city %s is %.3lf. \n", Citys, Population);
-    printf("The number of Area the city %s is %.3lf. \n", Citys, Area);
-    printf("The number of PIB the city %s is %.3lf. \n", Citys, Pib);
+    printf("The number of Area the city %s is %.3lf Km. \n", Citys, Area);
+    printf("The number of PIB the city %s is R$ %.2lf . \n", Citys, Pib);
     printf("The number of Tourist Attractions is %d. \n", TouristAttractions);
 
     printf("\n");
@@ -77,8 +76,8 @@ int main() {
     printf("Name of state the card %s is %s. \n", NumberCard2, State2);
     printf("The name of city is %s. \n", Citys2);
     printf("The number of population the city %s is %.3lf. \n", Citys2, Populations2);
-    printf("The number of Area the city %s is %.3lf. \n", Citys, Area2);
-    printf("The number of PIB the city %s is %.3lf. \n", Citys2, Pib2);
+    printf("The number of Area the city %s is %.3lf Km. \n", Citys, Area2);
+    printf("The number of PIB the city %s is R$ %.2lf. \n", Citys2, Pib2);
     printf("The number of Tourist Attractions is %d. \n", TouristAttractions2);
 
     return 0;
